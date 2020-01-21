@@ -1,0 +1,35 @@
+
+div{height:60px;}
+
+.nav{
+background-color:blue;
+grid-area:nav;
+}
+
+.header{
+background-color:lightgreen;
+grid-area:header;
+}
+
+.footer{
+background-color:violet;
+grid-area:footer;
+}
+
+.main{
+background-color:purple;
+grid-area:main;
+}
+
+
+
+
+
+.container1 {
+display:grid;
+grid-template-columns:25% auto;
+grid-template-areas:
+"header header"
+"nav main"
+"footer footer";
+}
