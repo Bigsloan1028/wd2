@@ -1,5 +1,5 @@
 
-div{height:100px;}
+div{height:60px;}
 
 .nav{
 background-color:blue;
@@ -24,12 +24,13 @@ grid-area:main;
 
 
 
-
-.container1 {
-display:grid;
-grid-template-columns:25% auto;
-grid-template-areas:
-"header header"
-"nav main"
-"footer footer";
-}
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
