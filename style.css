@@ -34,3 +34,8 @@ grid-area:main;
     "nav main"
     "footer footer";
     }
+
+h1{
+color:mediumspringgreen; 
+text-shadow: 2px 2px 5px navy;
+}
