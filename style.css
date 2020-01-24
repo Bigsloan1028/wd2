@@ -3,6 +3,16 @@ background: linear-gradient(to right, lightgreen, teal);
 font-family:Verdana;
  }
 
+header{
+background:rgba(0,0,0,.2);
+grid-area:header;
+}
+
+header h1{
+color:mediumspringgreen; 
+text-shadow: 2px 2px 5px navy;
+}
+
 nav {
     grid-area:nav;
     background:rgba(0,0,0,.2);
@@ -27,21 +37,18 @@ a:hover {
     color:white;
 }
 
-
-.header{
-background-color:lightgreen;
-grid-area:header;
+main{
+background:rgba(0,0,0,.2);
+grid-area:main;
 }
 
-.footer{
-background-color:violet;
+
+footer{
+background:rgba(0,0,0,.2);
 grid-area:footer;
 }
 
-.main{
-background-color:purple;
-grid-area:main;
-}
+
 
 .container1 { /*for index.html*/
   display: grid;
@@ -54,8 +61,5 @@ grid-area:main;
     "footer footer";
     }
 
-h1{
-color:mediumspringgreen; 
-text-shadow: 2px 2px 5px navy;
-}
+
 
