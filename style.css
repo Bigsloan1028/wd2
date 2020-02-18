@@ -73,6 +73,20 @@ main p {
   font-size:1em;
 }
 
+aside {
+	grid-area:aside;
+	background:rgba(0,0,0,.2);
+}
+aside a {
+	color:white;
+}
+aside a:hover {
+	color:navy;
+}
+aside li{
+	color:navy;
+	padding:5px 0;
+}
 footer {
   grid-area:footer;
   background:rgba(0,0,0,.2);
