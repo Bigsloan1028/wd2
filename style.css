@@ -77,6 +77,10 @@ aside {
 	grid-area:aside;
 	background:rgba(0,0,0,.2);
 }
+aside h2{
+  color:navy;
+  text-align:center;
+}
 aside a {
 	color:white;
 }
@@ -85,7 +89,7 @@ aside a:hover {
 }
 aside li{
 	color:navy;
-	padding:5px 0;
+	padding:5px;
 }
 footer {
   grid-area:footer;
@@ -177,7 +181,7 @@ footer p {
 #flex-nav li {
     padding-left:10px;
     padding-top:10px;
-  } 
+  }
 
 	}
 
@@ -195,8 +199,3 @@ footer p {
 
 	}
 
-
-
-
-
-  
