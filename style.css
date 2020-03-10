@@ -103,16 +103,20 @@ footer p {
   color:white;
   margin:0;
 }
+article {
+  background:rgba(0,0,0,.2);
+  padding:5px;	
+}
+.top {
+	grid-area:top;
+}
+ 
+.middle {
+	grid-area:middle;
+}
 
-.container1 { /*for index.html*/
-  display: grid;
-  grid-template-columns:auto 1fr;
-  grid-gap:.5em;
-  margin:1%;
-  grid-template-areas:
-    "header header"
-    "nav main"
-    "footer footer";
+.bottom { 
+	grid-area:bottom;
 }
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
